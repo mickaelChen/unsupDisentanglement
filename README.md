@@ -1,23 +1,24 @@
 # unsupDisentanglement
-Unsupervised Learning of Factorized Representation (or the effectiveness of deep learning architectures)
 
+## Unsupervised Learning of Factorized Representation (or the effectiveness of deep learning architectures)
 Learning to separate structure and texture without supervision, using an hierarchical version of InfoGAN and by leveraging priors induced by the choice of architectures and the structure of latent representations.
 
-
-Broad Idea:
+## Broad Idea:
 We use a DCGAN-based generator followed by a softmax on the spatial dimensions to generate latent features maps **z** consisting of keypoints.
 We then use a ResNet with Conditional Instance Normalization to apply texture on **z** in order to generate the final image **x**. 
 **x** is then fed to a DCGAN based discriminator in order to have realistic images of chairs, and to another ResNet to reconstruct **z**.
 
 More details and experimental results will be coming.
 
+## Results
 Generated images of chairs in 256x256 resolution, with fixed structure (on a row) or with fixed texture (on a column).
 Chairs on a row have the same orientation 
-Not cherry picked.
+Not cherry picked, hyperparameters and architectures not cross-validated.
 ![alt text](out_209000_T.png)
 
 
-Here are some preliminary results on the CelebA dataset
+Here are some preliminary results on the CelebA dataset.
+Not cherry picked, hyperparameters and architectures not cross-validated.
 ![alt_text](out_178000_T.png)
 
 
