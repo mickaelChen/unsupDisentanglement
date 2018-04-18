@@ -16,7 +16,18 @@ Chairs on a row have the same orientation
 Not cherry picked.
 ![alt text](out_209000_T.png)
 
-Dataset: https://www.di.ens.fr/willow/research/seeing3Dchairs/
+
+Here are some preliminary experiments on the CelebA dataset
+![alt_text](out_178000_T.png)
+
+
+Datasets:
+https://www.di.ens.fr/willow/research/seeing3Dchairs/
 Seeing 3D chairs: exemplar part-based 2D-3D alignment using a large dataset of CAD models
 M. Aubry, D. Maturana, A. Efros, B. Russell and J. Sivic
 CVPR, 2014
+
+http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
+Deep Learning Face Attributes in the Wild
+Ziwei Liu and Ping Luo and Xiaogang Wang and Xiaoou Tang
+Proceedings of International Conference on Computer Vision (ICCV), 2015
