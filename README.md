@@ -10,7 +10,7 @@ We then use a ResNet with Conditional Instance Normalization to apply texture on
 
 More details and experimental results will be coming.
 
-## Results
+## Preliminary Results
 Generated images of chairs in 256x256 resolution, with fixed structure (on a row) or with fixed texture (on a column).
 Chairs on a row have the same orientation 
 Not cherry picked, hyperparameters and architectures not cross-validated.
