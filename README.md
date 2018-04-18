@@ -17,7 +17,7 @@ Not cherry picked.
 ![alt text](out_209000_T.png)
 
 
-Here are some preliminary experiments on the CelebA dataset
+Here are some preliminary results on the CelebA dataset
 ![alt_text](out_178000_T.png)
 
 
