@@ -3,7 +3,7 @@
 ## Unsupervised Learning of Factorized Representation (or the effectiveness of deep learning architectures)
 Learning to separate structure and texture without supervision, using an hierarchical version of InfoGAN and by leveraging priors induced by the choice of architectures and the structure of latent representations.
 
-## Broad Idea:
+## Broad Idea
 We use a DCGAN-based generator followed by a softmax on the spatial dimensions to generate latent features maps **z** consisting of keypoints.
 We then use a ResNet with Conditional Instance Normalization to apply texture on **z** in order to generate the final image **x**. 
 **x** is then fed to a DCGAN based discriminator in order to have realistic images of chairs, and to another ResNet to reconstruct **z**.
