@@ -6,7 +6,7 @@ We use a DCGAN-based generator followed by a softmax on the spatial dimensions t
 We then use a ResNet with Conditional Instance Normalization to apply texture on **z** in order to generate the final image **x**. 
 **x** is then fed to a DCGAN based discriminator in order to have realistic images of chairs, and to another ResNet to reconstruct **z**.
 
-More details and experimental results will be coming.
+More details and experimental results will be coming (along with a technical report).
 
 ## Preliminary Results
 Generated images of chairs in 256x256 resolution, with fixed structure (on a row) or with fixed texture (on a column).
