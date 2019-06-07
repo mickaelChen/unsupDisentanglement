@@ -1,4 +1,4 @@
-# Unsupervised Learning of Factorized Representation (or the effectiveness of deep learning architectures)
+# Unsupervised Learning of Factorized Representation
 Learning to separate structure and texture without supervision, using an hierarchical version of InfoGAN and by leveraging priors induced by the choice of architectures and the structure of latent representations.
 
 ## Broad Idea
