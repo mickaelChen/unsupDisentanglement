@@ -11,12 +11,12 @@ We then use a ResNet with Conditional Instance Normalization to apply texture on
 ## Preliminary Results
 Generated images of chairs in 256x256 resolution, with fixed structure (on a row) or with fixed texture (on a column).
 Chairs on a row have the same orientation 
-Not cherry picked, hyperparameters and architectures not cross-validated.
+Not cherry picked, hyperparameters and architectures not tuned.
 ![alt text](out_209000_T.png)
 
 
 Here are some preliminary results on the CelebA dataset.
-Not cherry picked, hyperparameters and architectures not cross-validated.
+Not cherry picked, hyperparameters and architectures not tuned.
 ![alt_text](out_178000_T.png)
 
 
