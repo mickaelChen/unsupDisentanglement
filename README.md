@@ -1,7 +1,7 @@
 # Unsupervised Learning of Factorized Representation
 Learning to separate structure and texture without supervision, using an hierarchical version of InfoGAN and by leveraging priors induced by the choice of architectures and the structure of latent representations.
 
-~~More details and experimental results will be coming (along with a technical report).~~ This project is now obsolete, as similar observations and a full set of experiments have been made in the excellent [StyleGAN](https://arxiv.org/abs/1812.04948) paper.
+~~More details and experimental results will be coming (along with a technical report).~~ This project is discontiniued.
 
 ## Broad Idea
 We use a DCGAN-based generator followed by a softmax on the spatial dimensions to generate latent features maps **z** consisting of keypoints.
